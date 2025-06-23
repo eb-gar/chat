@@ -5,7 +5,7 @@ Aplicación de chat en tiempo real usando **WebSocket** con **NestJS** (backend)
 
 **📂 Estructura del Proyecto**
 ```
-nest-websocket-chat/
+chat/
 ├── src/
 │   ├── chat/
 │   │   ├── chat.gateway.ts    # Lógica WebSocket
@@ -30,7 +30,7 @@ nest-websocket-chat/
 **1. Instalación**
 ```bash
 # Clonar repositorio (si aplica)
-git clone <tu-repositorio>
+git clone <chat>
 
 # Instalar dependencias
 npm install @nestjs/websockets @nestjs/platform-socket.io
@@ -98,9 +98,6 @@ En `chat.gateway.ts`:
 **📄 Licencia**  
 MIT License - Libre para uso y modificación.  
 
----
-
-**🎉 ¡Listo!** El frontend ya está integrado en NestJS (`public/index.html`).  
 **¿Problemas?** Verifica que:  
 1. El servidor esté corriendo (`npm run start:dev`).  
 2. Accedas a `http://localhost:3000/index.html`.
