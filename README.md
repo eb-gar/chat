@@ -46,8 +46,6 @@ El servidor estará en:
 - **Backend WebSocket**: `http://localhost:3000`  
 - **Frontend HTML**: `http://localhost:3000/index.html`  
 
----
-
 **📝 Uso**  
 1. **Accede al chat** desde:  
    ```
@@ -61,8 +59,6 @@ El servidor estará en:
 Client connected: xyz789          # Al conectarse
 Mensaje recibido de Juan: Hola!  # Al recibir mensajes
 ```
-
----
 
 **🔍 Detalles Técnicos**  
 
@@ -82,8 +78,6 @@ Mensaje recibido de Juan: Hola!  # Al recibir mensajes
   const socket = io('http://localhost:3000');
   ```
 
----
-
 **📌 Personalización**  
 **Cambiar puerto**  
 Modifica `main.ts`:  
@@ -100,8 +94,6 @@ En `chat.gateway.ts`:
   }
 })
 ```
-
----
 
 **📄 Licencia**  
 MIT License - Libre para uso y modificación.  
